@@ -1,0 +1,187 @@
+{
+  "package": "com.fbkj.youyuedu",
+  "name": "优阅读",
+  "versionName": "1.0.9",
+  "versionCode": 10,
+  "minPlatformVersion": 1090,
+  "icon": "/assets/you.png",
+  "features": [
+    {
+      "name": "system.prompt"
+    },
+    {
+      "name": "system.router"
+    },
+    {
+      "name": "system.shortcut"
+    },
+    {
+      "name": "system.webview"
+    },
+    {
+      "name": "service.share"
+    },
+    {
+      "name": "system.fetch"
+    },
+    {
+      "name": "service.texttoaudio"
+    },
+    {
+      "name": "system.geolocation"
+    },
+    {
+      "name": "system.network"
+    },
+    {
+      "name": "system.device"
+    },
+    {
+      "name": "system.storage"
+    },
+    {
+      "name": "system.clipboard"
+    },
+    {
+      "name": "system.file"
+    },
+    {
+      "name": "system.request"
+    },
+    {
+      "name": "system.package"
+    },
+    {
+      "name": "service.ad"
+    },
+    {
+      "name": "service.account"
+    },
+    {
+      "name": "system.cipher"
+    },
+    {
+      "name": "system.share"
+    }
+  ],
+  "permissions": [
+    {
+      "origin": "*"
+    }
+  ],
+  "template/official": "book",
+  "config": {
+    "logLevel": "debug",
+    "designWidth": 1080,
+    "data": {
+      "umeng_appkey": "61d3e3cbe0f9bb492bb89bd2"
+    },
+    "debug": true
+  },
+  "router": {
+    "entry": "quicktask/splash",
+    "pages": {
+      "quicktask/index": {
+        "component": "index"
+      },
+      "quicktask/splash": {
+        "component": "index"
+      },
+      "quicktask/web": {
+        "component": "index"
+      },
+      "quicktask/cashout": {
+        "component": "index"
+      },
+      "quicktask/about": {
+        "component": "index"
+      },
+      "pages/main": {
+        "component": "index"
+      },
+      "pages/search": {
+        "component": "index"
+      },
+      "pages/book-detail": {
+        "component": "index"
+      },
+      "pages/book-content": {
+        "component": "index"
+      },
+      "pages/comment": {
+        "component": "index"
+      },
+      "pages/comment-reply": {
+        "component": "index"
+      },
+      "pages/comment-all": {
+        "component": "index"
+      },
+      "pages/contents": {
+        "component": "index"
+      }
+    }
+  },
+  "display": {
+    "titleBar": true,
+    "titleBarBackgroundColor": "#f4f6fa",
+    "titleBarTextColor": "#333333",
+    "menu": true,
+    "pages": {
+      "pages/main": {
+        "titleBarText": "优阅读"
+      },
+      "pages/search": {
+        "titleBarText": "查找"
+      },
+      "pages/book-detail": {
+        "titleBarText": "图书详情"
+      },
+      "pages/book-content": {
+        "titleBar": false,
+        "fullScreen": true,
+        "launchMode": "standard"
+      },
+      "pages/comment": {
+        "titleBarText": ""
+      },
+      "pages/comment-reply": {
+        "titleBarText": ""
+      },
+      "pages/comment-all": {
+        "titleBarText": "评论列表"
+      },
+      "pages/contents": {
+        "titleBarText": "目录",
+        "launchMode": "singleTask"
+      },
+      "quicktask/index": {
+        "titleBarText": "",
+        "titleBar": false,
+        "menuBarData": {
+          "menuBar": false
+        }
+      },
+      "quicktask/splash": {
+        "titleBarText": ""
+      },
+      "quicktask/web": {
+        "titleBarText": ""
+      },
+      "quicktask/cashout": {
+        "titleBarText": ""
+      },
+      "quicktask/about": {
+        "titleBarText": ""
+      }
+    }
+  },
+  "packageInfo": {
+    "originType": "quickapp-ide",
+    "toolkit": "1.9.8",
+    "timeStamp": "2022-02-11T02:59:22.517Z",
+    "node": "v14.16.0",
+    "platform": "win32",
+    "arch": "x64"
+  }
+}
